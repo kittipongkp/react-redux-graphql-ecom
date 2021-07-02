@@ -5,9 +5,11 @@ import './default.scss'
 
 function App() {
   return (
-    <div >
+    <div className="App">
       <Header />
-      <Homepage />
+      <div className="main">
+        <Homepage />
+      </div>
     </div>
   );
 }
